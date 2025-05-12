@@ -5,6 +5,8 @@ import  numpy  as np
 import  plotly.express as px
 from    utils import *
 from    sections.estadisticas   import generar_analisis
+from    datetime import datetime, timedelta
+
 
 # Configuración de la página
 st.set_page_config(page_title="Análisis de Ventas y Mercadeo Web Cervezas Glurk", layout="wide")
